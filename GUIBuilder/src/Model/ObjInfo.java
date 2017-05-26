@@ -1,6 +1,8 @@
 package Model;
 
-public class ObjInfo {
+import java.io.Serializable;
+
+public class ObjInfo implements Serializable{
 	int id;
 	double startX;
 	double startY;
